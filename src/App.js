@@ -1,4 +1,5 @@
 import "./App.css";
+import "./App.scss";
 
 function App() {
   const name = "엘리";
@@ -6,7 +7,7 @@ function App() {
   return (
     <>
       <h1 className="orange">{`Hello ${name}`}</h1>
-      <h2>Hello!</h2>
+      <h2 className="gray">Hello!</h2>
       <p>{name}</p>
       <ul>
         {list.map((item) => (
